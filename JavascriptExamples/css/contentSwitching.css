@@ -1,0 +1,65 @@
+﻿html, body {
+  height: 100%;
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+}
+
+.content {
+    margin: auto;
+    max-width: 80%;
+    padding: 20px;
+}
+
+.content :last-child {
+    margin-bottom: 0;
+}
+
+.options {
+    height: 0%;
+    overflow: auto;
+    visibility: hidden;
+}
+
+.options:before {
+    content: '';
+    display: block;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.opt1 {
+  background: #d6f2e0;
+}
+
+.opt1:before {
+  background: #d6f2e0;
+}
+
+.opt2 {
+  background: #d6eff2;
+}
+
+.opt2:before {
+  background: #d6eff2;
+}
+
+.opt3 {
+  background: #f2e6d6;
+}
+
+.opt3:before {
+  background: #f2e6d6;
+}
+
+.show {
+    display: block;
+    height: 100%;
+    position: relative;
+    visibility: visible;
+}

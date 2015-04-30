@@ -1,0 +1,48 @@
+﻿<!--  Example on switching content using JavaScript and CSS, 
+      from the site: http://www.sitepoint.com/content-switching-component-built-three-ways/  -->
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Context Switching Example</title>
+    <link href="../css/contentSwitching.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <select name="choose" id="choose">
+            <option value="nul" selected disabled>Make a Select</option>
+            <option value="opt1">Option 1</option>
+            <option value="opt2">Option 2</option>
+            <option value="opt3">Option 3</option>
+        </select>
+    </div>
+
+    <section class="options opt1">
+        <div class="content">
+            <h1>Option 1</h1>
+            <p>
+                This is option 1.
+            </p>
+        </div>
+    </section>
+    <section class="options opt2">
+        <div class="content">
+            <h1>Option 2</h1>
+            <p>
+                Yep, option 2.
+            </p>
+        </div>
+    </section>
+    <section class="options opt3">
+        <div class="content">
+            <h1>Option 3</h1>
+            <p>
+                This is option 5, just kidding, it's option 3.
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/contentSwitching.js"></script>
+</body>
+</html>
